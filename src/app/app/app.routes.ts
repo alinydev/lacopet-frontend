@@ -5,8 +5,8 @@ import { LoginComponent } from '../login/login.component'
 import { AboutComponent} from '../about/about.component'
 import { IndexToUserComponent } from '../index-to-user/index-to-user.component';
 import { AddPostsComponent } from '../../../../lacopet-frontend/src/app/about/add-posts/add-posts.component';
-import { ViewPostsComponent } from '../about/view-posts/view-posts.component';
-import { ViewDetailsComponent } from '../about/view-details/view-details.component';
+import { ViewPostsComponent } from '../view-posts/view-posts.component';
+import { ViewDetailsComponent } from '../view-details/view-details.component';
 import { ViewMyPostsComponent } from '../view-my-posts/view-my-posts.component';
 import { ShowDeletedComponent } from '../show-deleted/show-deleted.component';
 import { EditPostComponent } from '../edit-post/edit-post.component';

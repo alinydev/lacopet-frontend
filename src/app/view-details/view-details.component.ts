@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
-import { DataService } from '../../../../../Projeto-laco-pet/front-end/src/app/data.service';
+import { DataService } from '../../../../Projeto-laco-pet/front-end/src/app/data.service';
 import axios from 'axios';
 import { CommonModule } from '@angular/common';
 
