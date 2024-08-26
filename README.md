@@ -1,27 +1,33 @@
-# LacopetFrontend
+# Projeto LaçoPet - Doação e Encontro de Animais 🐾
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+O **LaçoPet** é uma aplicação para facilitar a doação e o reencontro de animais perdidos em uma determinada cidade ou região. A plataforma permite que os usuários publiquem anúncios sobre animais perdidos ou disponíveis para adoção, e interajam comentando nas publicações de outros usuários.
 
-## Development server
+## Funcionalidades do Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **CRUD de Publicações**: Os usuários podem criar, listar, editar e excluir suas publicações de animais perdidos ou para adoção.
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Frameworks
 
-## Build
+- **Spring Boot**: Utilizado no backend, é um framework para Java que facilita o desenvolvimento de aplicações web com configurações e plugins essenciais.
+- **Angular**: Biblioteca para construção de interfaces visuais, com várias funcionalidades para o que preciso no meu projeto.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Linguagens
 
-## Running unit tests
+- **Java JDK**: Kit de desenvolvimento Java, essencial para a implementação das funcionalidades backend.
+- **HTML | CSS | TypeScript**: Tecnologias frontend responsáveis por criar uma interface visual agradável e responsiva para os usuários.
+- **Tailwind** - Biblioteca CSS que me auxiliou na estilização.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+### Banco de Dados
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **MongoDB**: Um sistema de banco de dados robusto e seguro, escolhido por seu suporte a transações ACID, garantindo a integridade dos dados.
 
-## Further help
+### Segurança
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- **JWT (JSON Web Token)**: Implementado para garantir a segurança das informações transmitidas entre o cliente e o servidor. É uma solução compacta e eficiente para autenticação e autorização.
+
+---
+
+Esse projeto visa não apenas ajudar na busca e resgate de animais, mas também fomentar uma comunidade mais unida e engajada na causa animal. Combinando tecnologias modernas e uma arquitetura robusta, o LaçoPet é projetado para ser uma ferramenta confiável e acessível para todos os usuários.
